@@ -1,6 +1,11 @@
 {
   "name": "vitafin",
-  "owner": { "name": "Vitafin", "email": "davudul.hakeem@vitafin.io", "url": "https://vitafin.io" },
+  "description": "Vitafin: track all your money by chat.",
+  "owner": {
+    "name": "Vitafin",
+    "email": "davudul.hakeem@vitafin.io",
+    "url": "https://vitafin.io"
+  },
   "plugins": [
     {
       "name": "vitafin",
