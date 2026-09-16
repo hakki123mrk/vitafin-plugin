@@ -1,0 +1,14 @@
+{
+  "name": "vitafin",
+  "owner": { "name": "Vitafin", "email": "davudul.hakeem@vitafin.io", "url": "https://vitafin.io" },
+  "plugins": [
+    {
+      "name": "vitafin",
+      "source": "./",
+      "description": "Track all your money by chat: log spending, see net worth and what is due, reconcile bank statements, split bills with people.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "homepage": "https://vitafin.io"
+    }
+  ]
+}

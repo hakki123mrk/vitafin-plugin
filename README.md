@@ -16,13 +16,12 @@ bills and the money between you and other people.
 
 ## Install
 
-Claude Code:
+Claude Code (this repository is also its own marketplace):
 
 ```
-/plugin install vitafin
-```
-
-Or add the marketplace entry for this repository. The first Vitafin tool call opens the
+/plugin marketplace add hakki123mrk/vitafin-plugin
+/plugin install vitafin@vitafin
+``` The first Vitafin tool call opens the
 sign-in page; enter your email and the 6-digit code. A new email creates an account with a
 14-day trial; after that Vitafin is one monthly plan priced for your country.
 
