@@ -1,6 +1,6 @@
 ---
 name: vitafin
-description: How to keep a user's money records in Vitafin. Use whenever the user wants to log spending or income, ask what they spent, check balances, net worth, budgets or what is due, reconcile a bank statement, split a bill, or manage accounts, cards, loans, investments and recurring payments through the Vitafin MCP tools.
+description: How to keep a user's money records in Vitafin. Use whenever the user wants to log spending or income, ask what they spent, check balances, net worth, budgets or what is due, reconcile a bank statement, record a credit-card statement, split a bill, or manage accounts, cards, loans, investments and recurring payments through the Vitafin MCP tools.
 ---
 
 # Working with Vitafin
@@ -43,7 +43,8 @@ expects to see in the app.
 | "How am I doing on budgets?" | `budget_status` |
 | "What's due soon?" / "next 30 days" | `upcoming` |
 | "What's my net worth?" | `net_worth`; quote the base currency, the four lines and the rate date |
-| "Here's my statement" (pasted or attached) | `reconcile_statement` dry-run first; report matched / missing in app / missing on statement; only `commit` when the user agrees |
+| "Here's my bank statement" (pasted or attached) | `reconcile_statement` dry-run first; report matched / missing in app / missing on statement; only `commit` when the user agrees |
+| "Here's my credit-card statement" | `record_card_statement` dry-run first (closing balance, due date, minimum, every line with its `kind`); the ledger is anchored to the bank's figure; `commit` on agreement, oldest statement first |
 | "Split dinner with Ravi and Priya" | `log_transaction` then `split_transaction`; `people_balances` to report |
 | "Ravi paid me back 1,600" | `record_settlement` |
 | "Paid the card bill from HDFC" | `create_transfer` |
