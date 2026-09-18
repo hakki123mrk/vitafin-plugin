@@ -1,7 +1,7 @@
 {
   "name": "vitafin",
   "displayName": "Vitafin",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Track all your money by chat: log spending, see net worth and what is due, reconcile bank statements, split bills with people.",
   "author": { "name": "Vitafin", "email": "davudul.hakeem@vitafin.io", "url": "https://vitafin.io" },
   "homepage": "https://vitafin.io",

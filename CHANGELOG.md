@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0
+
+`/vitafin:setup` walks a new user through accounts, statements, cards, loans, people and
+recurring bills one question at a time. Skill rules added: fees, fines and interest are
+recorded as fees, never inside a payment; keep Uncategorized small with `learn_category`;
+use the mailbox when a mail connector is available; `chart` for pictures.
+
 ## 1.1.0
 
 `/vitafin:card-statement`: read a credit-card statement and record it with
